@@ -53,14 +53,6 @@ body {
   margin-right: 10px;
 }
 
-.navbar > * {
-  display: flex;
-  gap: 20px;
-  justify-content: end;
-  width: 100%;
-  list-style: none;
-}
-
 .input-text,
 .input-submit {
   height: 45px;
@@ -73,4 +65,14 @@ body {
   color: red;
   margin-top: 5px;
   display: block;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Active route */
+.active {
+  color: #005bb3;
 }
