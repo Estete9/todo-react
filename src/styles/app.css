@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Segoe UI", sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   line-height: 1.4;
   color: #000;
   background: #fff;
@@ -51,6 +51,14 @@ body {
   cursor: pointer;
   font-weight: 600;
   margin-right: 10px;
+}
+
+.navbar > * {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  width: 100%;
+  list-style: none;
 }
 
 .input-text,
