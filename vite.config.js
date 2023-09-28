@@ -1,9 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-
 
 // Use import.meta.url to get the current module's URL and convert it to a file path
 const currentModuleUrl = import.meta.url;
@@ -24,3 +21,4 @@ export default defineConfig({
   },
   plugins: [react()],
 });
+
